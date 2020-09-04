@@ -10,4 +10,5 @@ How to build:
 - type "crystal src/main.cr"
 
 ![alt text](https://github.com/wheremyfoodat/Beeg-Boy/blob/master/image2.png?raw=true)
+
 ![alt text](https://github.com/wheremyfoodat/Beeg-Boy/blob/master/image1.png?raw=true)
