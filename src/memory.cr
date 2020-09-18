@@ -161,7 +161,13 @@ class Memory
 
             when 0xFF04 # DIV
                 @timers.div = 0
-            
+
+            when 0xFF05
+                @timers.tima = value
+
+            when 0xFF06 # TMA
+                @timers.tma = value
+
             when 0xFF07 # TAC
                 @timers.tac = value
 
