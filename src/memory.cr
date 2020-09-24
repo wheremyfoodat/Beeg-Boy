@@ -68,7 +68,7 @@ class Memory
             return @wram[addr & 0x1FFF]
     
         when 0xFE00..0xFE9F
-            return @ppu.oam[addr & 0x9F]
+            return @ppu.oam[addr & 0xFF]
         
         when 0xFEA0..0xFEFF
             puts "read from invalid address!"
@@ -145,7 +145,7 @@ class Memory
             @wram[addr & 0x1FFF] = value
     
         when 0xFE00..0xFE9F
-            @ppu.oam[addr & 0x9F] = value
+            @ppu.oam[addr & 0xFF] = value
         
         when 0xFEA0..0xFEFF
             #puts "write to invalid address!"
