@@ -5,7 +5,7 @@ require "./memory"
 require "./cpu"
 
 class Gameboy
-    CYCLES_PER_FRAME = 4194300
+    CYCLES_PER_FRAME = 4194300 / 60
 
     def initialize (dir : String, @window : SF::RenderWindow)
         @ppu = PPU.new(window)
