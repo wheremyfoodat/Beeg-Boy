@@ -1,7 +1,7 @@
 require "crsfml"
 require "./gameboy"
 
-window = SF::RenderWindow.new(SF::VideoMode.new(160, 144), "Smol Pene")
+window = SF::RenderWindow.new(SF::VideoMode.new(160, 144), "Beeg Boy")
 
 gb = Gameboy.new("./ROMs/tst.gb", window)
 
